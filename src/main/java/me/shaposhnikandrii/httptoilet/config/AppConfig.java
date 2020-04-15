@@ -16,8 +16,7 @@ import static java.lang.Thread.currentThread;
 
 public class AppConfig extends AbstractModule {
 
-  @Provides
-  @Singleton
+  @Provides @Singleton
   public Properties provideApplicationProperties() {
     try {
       final InputStream is = currentThread().getContextClassLoader().getResourceAsStream("application.properties");
