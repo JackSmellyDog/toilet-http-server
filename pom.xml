@@ -126,7 +126,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>me.shaposhnikandrii.httptoilet.HttpToiletApp</mainClass>
+                            <mainClass>me.shaposhnikandrii.httptoilet.ToiletServerStarter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
