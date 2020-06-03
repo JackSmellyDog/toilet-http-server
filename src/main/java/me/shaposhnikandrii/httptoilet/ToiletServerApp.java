@@ -3,12 +3,11 @@ package me.shaposhnikandrii.httptoilet;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 import com.google.inject.persist.PersistService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import spark.Spark;
 
+@Slf4j
 public class ToiletServerApp {
-  public static final Logger log = LoggerFactory.getLogger(ToiletServerApp.class);
 
   @Inject
   private PersistService persistService;
